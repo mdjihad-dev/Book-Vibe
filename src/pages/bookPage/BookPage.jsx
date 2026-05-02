@@ -1,12 +1,12 @@
-import React from "react";
-import Book from "../../Component/home/Book";
+import Books from "../../Component/books/books";
+
 
 const BookPage = () => {
+
   return (
-    <div>
-      <Book />
+    <div className="">
+      <Books />
     </div>
   );
 };
-
 export default BookPage;
