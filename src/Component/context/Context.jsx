@@ -45,7 +45,7 @@ const Context = ({children}) => {
       storedBook,
       setStoreBook,
       handlerClick,
-      wishList,
+       wishList,
       handlerWishList,
     };
     return (

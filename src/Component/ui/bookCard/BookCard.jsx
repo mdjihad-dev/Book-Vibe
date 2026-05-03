@@ -2,7 +2,7 @@
 import { CiStar } from 'react-icons/ci';
 import { Link } from 'react-router';
 
-const BookCard = ({ data }) => {
+const BookCard = ({ data}) => {
     
   return (
     <Link to={`/books/${data.bookId}`} className="card bg-base-100 w-96 shadow-lg">
